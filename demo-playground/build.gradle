@@ -21,6 +21,7 @@ android {
     compileSdkVersion rootProject.ext.compileSdkVersion
 
     defaultConfig {
+        namespace "com.google.android.apps.flexbox"
         applicationId "com.google.android.apps.flexbox"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion

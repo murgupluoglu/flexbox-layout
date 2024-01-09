@@ -18,11 +18,11 @@
 
 buildscript {
     ext {
-        minSdkVersion = 14
+        minSdkVersion = 21
         targetSdkVersion = 30
         compileSdkVersion = 30
 
-        androidGradlePluginVersion = "4.2.0"
+        androidGradlePluginVersion = "7.4.2"
         androidxAnnotationVersion = "1.2.0"
         androidxAppCompatVersion = "1.2.0"
         androidxCoreVersion = "1.3.2"
@@ -32,12 +32,12 @@ buildscript {
         androidxTestExtVersion = "1.1.2"
         androidxTestVersion = "1.3.0"
         junitVersion = "4.13.2"
-        kotlinVersion = "1.4.32"
+        kotlinVersion = "1.5.20"
         materialVersion = "1.3.0"
     }
 
     repositories {
-        jcenter()
+        mavenCentral()
         google()
     }
     dependencies {
@@ -50,7 +50,7 @@ buildscript {
 
 allprojects {
     repositories {
-        jcenter()
+        mavenCentral()
         google()
     }
 }

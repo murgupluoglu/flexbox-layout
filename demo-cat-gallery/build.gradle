@@ -22,6 +22,7 @@ android {
 
     defaultConfig {
         applicationId "com.google.android.flexbox.apps.catgallery"
+        namespace = "com.google.android.flexbox.apps.catgallery"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
